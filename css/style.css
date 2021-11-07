@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-decoration: none;
+    background-color: #9fad9e;
+}
+
+.caixa {
+    background-color: #fff;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 100vh;
+}
+
+.container {
+    background-color: #cce2cb;
+    height          : 60vh;
+    width           : 70vh;
+    border-radius   : 10px;
+    box-shadow      : -3px 13px 28px 1px rgba(0, 0, 0, 0.61);
+}
+
+.titulo,
+.subTitulo {
+    justify-content: center;
+    display        : flex;
+}
+
+.entrar {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    text-decoration: none;
+    max-width      : 800px;
+    font-size      : 70px;
+    color          : #000;
+}
+
+.entrar:hover {
+    background-color: #c3d8c2;
+}
+
+.entrar:active {
+    font-size: 80px;
+}
+
+.menu {
+    background-color: #cce2cb;
+    box-shadow      : -3px 3px 28px 1px rgba(0, 0, 0, 0.61);
+    display         : flex;
+    height          : 60px;
+    align-items     : center;
+    justify-content : center;
+}
+
+li {
+    list-style: none;
+}
+
+.menuOpcao {
+    color          : #000;
+    font-size      : 20px;
+    text-decoration: none;
+    margin         : 20px;
+}
+
+.link:hover {
+    background-color: #9fad9e;
+    height          : 40px;
+}
+
+.sobremim {
+    margin         : 50px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.tabelas {
+    border-collapse: collapse;
+    display: flex;
+    margin : 50px;
+}
+
+.box,
+.conteudo{
+    border: 1px solid black;
+}
+
+
+.barra {
+    background-color: #b6cfb6;
+}
+
+.livro{
+    box-shadow      : -3px 3px 28px 1px rgba(0, 0, 0, 0.61);
+}
